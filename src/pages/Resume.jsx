@@ -367,6 +367,41 @@ const Resume = () => {
                 <li>Currently engineering daily market commodity price tracker with Better Auth authentication and responsive localized tables.</li>
               </ul>
             </div>
+
+            {/* Project 4 */}
+            <div className="border-l-2 border-teal-600 pl-4 py-0.5">
+              <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1">
+                <h3 className="text-sm sm:text-base font-bold text-gray-900">
+                  BookNook — Online Library Platform
+                </h3>
+                <div className="flex items-center gap-3 text-xs font-semibold text-teal-600">
+                  <a
+                    href="https://booknook-client-new.vercel.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="hover:underline flex items-center gap-1"
+                  >
+                    Live Demo <HiExternalLink />
+                  </a>
+                  <span>•</span>
+                  <a
+                    href="https://github.com/Avijit35cse/booknook-client"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="hover:underline flex items-center gap-1"
+                  >
+                    Repository <HiExternalLink />
+                  </a>
+                </div>
+              </div>
+              <p className="text-xs text-gray-500 font-medium mt-0.5">
+                Tech Stack: Next.js, TypeScript, Tailwind CSS, Better Auth, Express.js, MongoDB
+              </p>
+              <ul className="mt-1.5 list-disc list-inside text-xs sm:text-sm text-gray-700 space-y-1">
+                <li>Built a full-stack online library where readers browse the catalogue, add books to their shelf, and borrow or return titles with due-date tracking.</li>
+                <li>Implemented secure authentication with Better Auth and a MongoDB-backed Express REST API, keeping book availability in sync across borrows and returns.</li>
+              </ul>
+            </div>
           </div>
         </section>
 

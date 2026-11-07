@@ -1,6 +1,7 @@
 import project1 from "../assets/projects/project1.png";
 import project2 from "../assets/projects/project2.png";
 import project3 from "../assets/projects/project3.svg";
+import project4 from "../assets/projects/project4.png";
 
 const projects = [
   {
@@ -85,6 +86,34 @@ const projects = [
       "Interactive historical price trend line charts using Chart.js or Recharts",
       "SMS & WhatsApp notification alerts for sudden essential commodity price changes",
       "Crowdsourced price verification system with localized community trust ratings"
+    ],
+  },
+  {
+    id: 4,
+    title: "BookNook — Online Library Platform",
+    image: project4,
+    category: "Full Stack / Online Library Web App",
+    technologies: [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Better Auth",
+      "Express.js",
+      "MongoDB"
+    ],
+    description:
+      "A calm, modern online library where readers can browse the catalogue, add books to their own shelf, and borrow titles for a few days. Features category browsing and search, book detail pages with live availability, a borrow/return workflow with due dates, and secure user authentication.",
+    live: "https://booknook-client-new.vercel.app/",
+    github: "https://github.com/Avijit35cse/booknook-client",
+    challenges: [
+      "Keeping available copy counts accurate across borrow and return actions so the catalogue always reflects real availability",
+      "Securing the client and Express API with Better Auth and MongoDB sessions, including protected routes for signed-in readers",
+      "Designing a warm, editorial-style responsive UI with a carousel hero, book grids, and clear due-date tracking for borrows"
+    ],
+    future: [
+      "Email or in-app reminders before a borrowed book is due back",
+      "Reader reviews, ratings, and personalised recommendations based on borrow history",
+      "Admin dashboard for managing inventory, categories, and overdue borrows"
     ],
   },
 ];
