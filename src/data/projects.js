@@ -1,6 +1,6 @@
 import project1 from "../assets/projects/project1.png";
 import project2 from "../assets/projects/project2.png";
-import project3 from "../assets/projects/project3.svg";
+import project3 from "../assets/projects/project3.png";
 import project4 from "../assets/projects/project4.png";
 
 const projects = [
@@ -64,8 +64,6 @@ const projects = [
     title: "Bazar Dor — Daily Market Price Tracker",
     image: project3,
     category: "Consumer Analytics & Web App",
-    isComingSoon: true,
-    status: "Coming Soon",
     technologies: [
       "Next.js",
       "TypeScript",
@@ -74,9 +72,9 @@ const projects = [
       "React"
     ],
     description:
-      "A Bengali daily market price tracker and consumer commodity analytics platform (currently in active development). Designed to monitor fluctuating essential grocery and food commodity rates across Dhaka and major divisional markets with transparent historical records and user alerts.",
-    live: null,
-    github: "https://github.com/Avijit35cse/B14-A7-Bazar-Dor",
+      "A Bengali daily market price tracker and consumer commodity analytics platform. Designed to monitor fluctuating essential grocery and food commodity rates across Dhaka and major divisional markets with transparent historical records and user alerts.",
+    live: "https://bazar-dor-b14.vercel.app",
+    github: "https://github.com/Avijit35cse/Bazar-Dor",
     challenges: [
       "Architecting clean Next.js server actions and API routes for daily commodity price submissions and verification",
       "Integrating Better Auth for secure user role authentication (Administrators vs. General Consumers)",

@@ -343,15 +343,19 @@ const Resume = () => {
                   <h3 className="text-sm sm:text-base font-bold text-gray-900">
                     Bazar Dor — Bengali Daily Market Price Tracker
                   </h3>
-                  <span className="text-[11px] font-bold text-amber-700 bg-amber-50 border border-amber-200 px-2 py-0.5 rounded">
-                    Coming Soon
-                  </span>
                 </div>
                 <div className="flex items-center gap-3 text-xs font-semibold text-emerald-600">
-                  <span className="text-amber-600 font-medium">In Development</span>
+                  <a
+                    href="https://bazar-dor-b14.vercel.app"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="hover:underline flex items-center gap-1"
+                  >
+                    Live Demo <HiExternalLink />
+                  </a>
                   <span>•</span>
                   <a
-                    href="https://github.com/Avijit35cse/B14-A7-Bazar-Dor"
+                    href="https://github.com/Avijit35cse/Bazar-Dor"
                     target="_blank"
                     rel="noreferrer"
                     className="hover:underline flex items-center gap-1"
@@ -364,7 +368,7 @@ const Resume = () => {
                 Tech Stack: Next.js, TypeScript, Tailwind CSS, Better Auth, React
               </p>
               <ul className="mt-1.5 list-disc list-inside text-xs sm:text-sm text-gray-700 space-y-1">
-                <li>Currently engineering daily market commodity price tracker with Better Auth authentication and responsive localized tables.</li>
+                <li>Built a Bengali daily market commodity price tracker with Better Auth authentication, responsive localized tables, and transparent historical price records.</li>
               </ul>
             </div>
 
